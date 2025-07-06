@@ -8,4 +8,6 @@ return function(ArtifyRouter $router) {
     $router->get('/Inventario', 'InventarioController@Inventario_de_Productos');
 
     $router->get('/Productos_vendidos', 'Productos_vendidosController@Productos_Vendidos');
+
+    $router->get('/Listado_de_toner', 'Listado_de_tonerController@Listado_de_Toner');
 };
